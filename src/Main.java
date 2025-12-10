@@ -1,34 +1,34 @@
-public class JobListing {
-    private String title;
-    private double payment;
-    private String description;
+public class Freelancer {
+    private String name;
+    private String skill;
+    private double rating;
 
-    public JobListing(String title, double payment, String description) {
-        this.title = title;
-        this.payment = payment;
-        this.description = description;
+    public Freelancer(String name, String skill, double rating) {
+        this.name = name;
+        this.skill = skill;
+        this.rating = rating;
     }
 
-    public String getTitle() {
-        return title;
+    public String getName() {
+        return name;
     }
 
-    public double getPayment() {
-        return payment;
+    public String getSkill() {
+        return skill;
     }
 
-    public String getDescription() {
-        return description;
+    public double getRating() {
+        return rating;
     }
 
-    public void setPayment(double payment) {
-        this.payment = payment;
+    public void setRating(double rating) {
+        this.rating = rating;
     }
 
     public void printInfo() {
-        System.out.println("Job title: " + title);
-        System.out.println("Payment: " + payment);
-        System.out.println("Description: " + description);
+        System.out.println("Freelancer name: " + name);
+        System.out.println("Skill: " + skill);
+        System.out.println("Rating: " + rating);
         System.out.println("--------------------------------");
     }
 }
