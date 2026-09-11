@@ -7,6 +7,7 @@ public class Main {
                 .setRam(16)
                 .setStorage(512)
                 .setGpu("RTX 4060")
+                .setOperatingSystem("Windows 11")
                 .build();
 
         System.out.println("Custom computer:");
