@@ -3,6 +3,7 @@ public class ComputerBuilder {
     private int ram;
     private int storage;
     private String gpu;
+    private String operatingSystem;
 
     public ComputerBuilder setCpu(String cpu) {
         this.cpu = cpu;
@@ -20,10 +21,14 @@ public class ComputerBuilder {
         this.gpu = gpu;
         return this;
     }
+    public ComputerBuilder setOperatingSystem(String operatingSystem) {
+        this.operatingSystem = operatingSystem;
+        return this;
+    }
     public Computer build() {
         validate();
 
-        return new Computer(cpu,ram,storage,gpu);
+        return new Computer(cpu,ram,storage,gpu,operatingSystem);
 
     }
     private void validate() {
