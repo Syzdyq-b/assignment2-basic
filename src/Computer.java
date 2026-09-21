@@ -18,5 +18,4 @@ public class Computer {
         return "Computer [cpu=" + cpu + ", ram=" + ram + ", storage=" + storage +
                 ", gpu=" + gpu + ", OperatingSystem=" + OperatingSystem + "]";
     }
-
 }

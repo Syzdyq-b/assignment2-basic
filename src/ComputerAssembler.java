@@ -11,6 +11,7 @@ public class ComputerAssembler {
         }
         this.factory = factory;
     }
+
     public Computer assemble() {
         Cpu cpu = factory.createCpu();
         Gpu gpu = factory.createGpu();
