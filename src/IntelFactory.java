@@ -1,4 +1,4 @@
-public class  IntelFactory implements ComponentFactory {
+public class IntelFactory implements ComponentFactory {
     @Override
     public Cpu createCpu() {
         return new IntelCpu();

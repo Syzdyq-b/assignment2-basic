@@ -1,3 +1,3 @@
-public interface  Gpu {
+public interface Gpu {
     String getName();
 }
