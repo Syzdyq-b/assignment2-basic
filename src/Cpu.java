@@ -1,3 +1,3 @@
-public interface Cpu {
+public interface  Cpu {
     String getName();
 }

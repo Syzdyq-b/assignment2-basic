@@ -31,7 +31,6 @@ public class ComputerBuilder {
         return new Computer(cpu,ram,storage,gpu,operatingSystem);
 
     }
-
     private void validate() {
         if (cpu == null || cpu.isBlank()) {
             throw new IllegalArgumentException("cpu is required");
