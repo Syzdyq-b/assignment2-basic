@@ -58,7 +58,6 @@ public ComputerAssembler(ComponentFactory factory) {
     this.factory = factory;
 }
 ```
-
 ### 5. Program to interfaces
 ```java
 // Before
