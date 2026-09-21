@@ -15,7 +15,7 @@ public class Computer {
 
     }
     @Override public String toString() {
-        return "ComputerBuilder [cpu=" + cpu + ", ram=" + ram + ", storage=" + storage +
+        return "Computer [cpu=" + cpu + ", ram=" + ram + ", storage=" + storage +
                 ", gpu=" + gpu + ", OperatingSystem=" + OperatingSystem + "]";
     }
 }
