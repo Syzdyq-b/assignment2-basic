@@ -4,7 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="01d8ab87-4b1d-4deb-81fd-5faf2a99302d" name="Changes" comment="first commit" />
+    <list default="true" id="01d8ab87-4b1d-4deb-81fd-5faf2a99302d" name="Changes" comment="last commit">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -13,6 +15,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="SimpleSourceFile" />
+        <option value="Interface" />
         <option value="Class" />
       </list>
     </option>
@@ -23,6 +27,7 @@
         <option value="freelance-portal &lt;beknursyzdykov17@gmail.com&gt;" />
       </list>
     </option>
+    <option name="PUSH_AUTO_UPDATE" value="true" />
     <option name="PUSH_TAGS">
       <GitPushTagMode>
         <option name="argument" value="--tags" />
@@ -31,15 +36,15 @@
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
-  "lastFilter": {
-    "state": "OPEN",
-    "assignee": "Beknur-syzdyk"
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;Beknur-syzdyk&quot;
   }
-}]]></component>
+}</component>
   <component name="GithubPullRequestsUISettings"><![CDATA[{
   "selectedUrlAndAccountId": {
-    "url": "https://github.com/Beknur-syzdyk/main.java.git",
+    "url": "https://github.com/Syzdyq-b/assignment2-basic.git",
     "accountId": "cd831f51-1550-4b5e-96b1-61c94d9c6a2f"
   }
 }]]></component>
@@ -47,28 +52,35 @@
   &quot;associatedIndex&quot;: 5
 }</component>
   <component name="ProjectId" id="36XzCYjUQUTB0nn28fpRwwY7Tzv" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "Application.Main.executor": "Run",
-    "Application.main.executor": "Run",
-    "ModuleVcsDetector.initialDetectionPerformed": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252": "true",
-    "git-widget-placeholder": "master",
-    "kotlin-language-version-configured": "true",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "onboarding.tips.debug.path": "C:/Users/User/IdeaProjects/main.java/src/Main.java",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Application.Main.executor&quot;: &quot;Run&quot;,
+    &quot;Application.main.executor&quot;: &quot;Run&quot;,
+    &quot;ModuleVcsDetector.initialDetectionPerformed&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;onboarding.tips.debug.path&quot;: &quot;C:/Users/User/IdeaProjects/main.java/src/Main.java&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Project&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyClassDialog.RECENTS_KEY">
       <recent name="" />
@@ -78,7 +90,6 @@
     <attachedChunks>
       <set>
         <option value="bundled-jdk-9823dce3aa75-bf35d07a577b-intellij.indexing.shared.core-IU-252.28238.7" />
-        <option value="bundled-js-predefined-d6986cc7102b-a71380e98a7c-JavaScript-IU-252.28238.7" />
       </set>
     </attachedChunks>
   </component>
@@ -91,7 +102,8 @@
       <updated>1765167582384</updated>
       <workItem from="1765167602232" duration="2725000" />
       <workItem from="1765206027373" duration="1399000" />
-      <workItem from="1765372604276" duration="6584000" />
+      <workItem from="1765372604276" duration="7473000" />
+      <workItem from="1766027749267" duration="1195000" />
     </task>
     <task id="LOCAL-00001" summary="first commit">
       <option name="closed" value="true" />
@@ -181,7 +193,119 @@
       <option name="project" value="LOCAL" />
       <updated>1765381187611</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="first commit">
+      <option name="closed" value="true" />
+      <created>1765381581232</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1765381581233</updated>
+    </task>
+    <task id="LOCAL-00013" summary="Create Computer product and builder">
+      <option name="closed" value="true" />
+      <created>1788971098382</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1788971098382</updated>
+    </task>
+    <task id="LOCAL-00014" summary="Add director and client">
+      <option name="closed" value="true" />
+      <created>1788971155372</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1788971155372</updated>
+    </task>
+    <task id="LOCAL-00015" summary="Add director and client">
+      <option name="closed" value="true" />
+      <created>1788971334028</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1788971334028</updated>
+    </task>
+    <task id="LOCAL-00016" summary="Create Computer product">
+      <option name="closed" value="true" />
+      <created>1789133789102</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1789133789102</updated>
+    </task>
+    <task id="LOCAL-00017" summary="Implement Builder pattern">
+      <option name="closed" value="true" />
+      <created>1789133818780</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1789133818780</updated>
+    </task>
+    <task id="LOCAL-00018" summary="Add Director and client">
+      <option name="closed" value="true" />
+      <created>1789133855237</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1789133855237</updated>
+    </task>
+    <task id="LOCAL-00019" summary="Add README and clean code documentation">
+      <option name="closed" value="true" />
+      <created>1789133908337</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1789133908337</updated>
+    </task>
+    <task id="LOCAL-00020" summary="first commit">
+      <option name="closed" value="true" />
+      <created>1789976615947</created>
+      <option name="number" value="00020" />
+      <option name="presentableId" value="LOCAL-00020" />
+      <option name="project" value="LOCAL" />
+      <updated>1789976615947</updated>
+    </task>
+    <task id="LOCAL-00021" summary="second commit">
+      <option name="closed" value="true" />
+      <created>1789976649133</created>
+      <option name="number" value="00021" />
+      <option name="presentableId" value="LOCAL-00021" />
+      <option name="project" value="LOCAL" />
+      <updated>1789976649133</updated>
+    </task>
+    <task id="LOCAL-00022" summary="last commit">
+      <option name="closed" value="true" />
+      <created>1789976663647</created>
+      <option name="number" value="00022" />
+      <option name="presentableId" value="LOCAL-00022" />
+      <option name="project" value="LOCAL" />
+      <updated>1789976663647</updated>
+    </task>
+    <task id="LOCAL-00023" summary="first commit">
+      <option name="closed" value="true" />
+      <created>1789977119555</created>
+      <option name="number" value="00023" />
+      <option name="presentableId" value="LOCAL-00023" />
+      <option name="project" value="LOCAL" />
+      <updated>1789977119555</updated>
+    </task>
+    <task id="LOCAL-00024" summary="second commit">
+      <option name="closed" value="true" />
+      <created>1789977145693</created>
+      <option name="number" value="00024" />
+      <option name="presentableId" value="LOCAL-00024" />
+      <option name="project" value="LOCAL" />
+      <updated>1789977145693</updated>
+    </task>
+    <task id="LOCAL-00025" summary="last commit">
+      <option name="closed" value="true" />
+      <created>1789977156097</created>
+      <option name="number" value="00025" />
+      <option name="presentableId" value="LOCAL-00025" />
+      <option name="project" value="LOCAL" />
+      <updated>1789977156097</updated>
+    </task>
+    <option name="localTasksCounter" value="26" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -211,8 +335,15 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="second commit" />
+    <MESSAGE value="Create Computer product and builder" />
+    <MESSAGE value="Add director and client" />
+    <MESSAGE value="Create Computer product" />
+    <MESSAGE value="Implement Builder pattern" />
+    <MESSAGE value="Add Director and client" />
+    <MESSAGE value="Add README and clean code documentation" />
     <MESSAGE value="first commit" />
-    <option name="LAST_COMMIT_MESSAGE" value="first commit" />
+    <MESSAGE value="second commit" />
+    <MESSAGE value="last commit" />
+    <option name="LAST_COMMIT_MESSAGE" value="last commit" />
   </component>
 </project>
