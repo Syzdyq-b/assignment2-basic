@@ -9,16 +9,20 @@ public class Main {
                 .setGpu("RTX 4060")
                 .setOperatingSystem("Windows 11")
                 .build();
-
         System.out.println("Custom computer:");
         System.out.println(customComputer);
 
+        System.out.println("\nAbstract Factory:");
+        ComputerAssembler intelAssembler = new ComputerAssembler(new IntelFactory());
+        ComputerAssembler amdAssembler = new ComputerAssembler(new AmdFactory());
+        System.out.println("Intel set: " + intelAssembler.assemble());
+        System.out.println("AMD set:   " + amdAssembler.assemble());
 
-        ComputerDirector director = new ComputerDirector();
-
-        Computer gamingComputer = director.buildGamingcomputer();
-
-        System.out.println("\nGaming computer:");
-        System.out.println(gamingComputer);
+        System.out.println("\nValidation:");
+        try {
+            new ComputerAssembler(null);
+        } catch (IllegalArgumentException e) {
+            System.out.println("Rejected: " + e.getMessage());
+        }
     }
 }
