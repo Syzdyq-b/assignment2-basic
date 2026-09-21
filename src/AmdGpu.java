@@ -3,5 +3,4 @@ public class AmdGpu implements Gpu {
     public String getName() {
         return "AMD Radeon RX 7800 XT";
     }
-
 }

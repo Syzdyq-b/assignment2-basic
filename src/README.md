@@ -1,7 +1,6 @@
 # Computer Builder + Abstract Factory
 
 Assignment #1 (Builder) continued in Assignment #2 (Abstract Factory). Domain: computers. Language: Java.
-
 ## Run
 Open the project in IntelliJ IDEA and run `src/Main.java`.
 
