@@ -5,6 +5,7 @@ public class AmdFactory implements ComponentFactory {
     }
 
     @Override
+
     public Gpu createGpu() {
         return new AmdGpu();
     }
